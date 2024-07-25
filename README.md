@@ -21,6 +21,7 @@ To get started with either the initial setup or the final version, follow these 
     git clone https://github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone.git
     cd Hamster-Kombat-Telegram-Mini-App-Clone
     ```
+cloudflared tunnel --url http://localhost:5173
 
 ### Initial Setup
 

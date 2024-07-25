@@ -1,4 +1,4 @@
-import "./App.css";
+import './App.css';
 import { Unity, useUnityContext } from "react-unity-webgl";
 
 function App() {
@@ -10,7 +10,17 @@ function App() {
   });
 
   return (
-    <Unity unityProvider={unityProvider} style={{ width: 800, height: 600 }} />
+    <div>
+      <Unity
+        style={{
+          width: "80%",
+
+          justifySelf: "center",
+          alignSelf: "center",
+        }}
+        unityProvider={unityProvider}
+      />
+    </div>
   );
 }
 export default App;
