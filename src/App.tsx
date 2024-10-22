@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "build/TrumpRunner.loader.js",
-    dataUrl: "build/TrumpRunner.data",
-    frameworkUrl: "build/TrumpRunner.framework.js",
-    codeUrl: "build/TrumpRunner.wasm",
+    loaderUrl: "build/Build.loader.js",
+    dataUrl: "build/Build.data",
+    frameworkUrl: "build/Build.framework.js",
+    codeUrl: "build/Build.wasm",
   });
 
   const [windowDimensions, setWindowDimensions] = useState({
